@@ -1,0 +1,92 @@
+            body {
+                background: #c9cff8;
+                font-family: "Baloo Tamma 2", cursive;
+            }
+            /* Main Heading Font */
+            
+            .m-heading {
+                font-family: "Roboto Slab", serif;
+            }
+            
+            .navigation-link {
+                color: black;
+                border: 2px solid transparent;
+            }
+            
+            .navigation-link:hover {
+                font-size: 150%;
+            }
+            
+            .text-l1 {
+                color: black;
+            }
+            
+            .text-l2 {
+                color: rgb(29, 29, 99);
+                font-size: 3rem;
+            }
+            
+            .text-l3 {
+                color: rgb(27, 27, 27);
+            }
+            
+            .main-container {
+                height: 100vh;
+            }
+            
+            .main_row {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .main_row img {
+                width: auto;
+                height: 90vh;
+            }
+            
+            .about {
+                background: #96d6e6;
+                border-radius: 0.5rem;
+            }
+            
+            .about-main {
+                color: black;
+            }
+            
+            .head-main {
+                font-weight: bold;
+                color: rgb(29, 29, 99);
+                padding-top: 20px;
+            }
+            
+            .text-1 {
+                font-size: 3vh;
+            }
+            
+            .skill {
+                background: #b3e5ee;
+                border-radius: 0.5rem;
+                margin-top: 5px;
+            }
+            
+            .project {
+                background: #96d6e6;
+                border-radius: 0.5rem;
+                margin-top: 2px;
+            }
+            
+            .contact-head {
+                background: #c9e6ee;
+                border-radius: 0.5rem;
+                margin-top: 0px;
+                text-align: center;
+            }
+            
+            .mob .email {
+                text-decoration: solid;
+            }
+            
+            .con {
+                font-weight: bold;
+            }
