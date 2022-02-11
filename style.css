@@ -17,6 +17,30 @@
                 font-size: 150%;
             }
             
+            button:hover {
+                background-color: rgb(29, 29, 99);
+                ;
+            }
+            
+            #btn {
+                border: 2px solid black;
+                box-shadow: 3px rgb(110, 105, 105);
+                padding: 5px 10px;
+                border-radius: 10px;
+            }
+            
+            button>a:link {
+                color: rgb(250, 132, 21)
+            }
+            
+            button>a:hover {
+                color: rgb(246, 245, 250)
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
             .text-l1 {
                 color: black;
             }
@@ -76,6 +100,14 @@
                 margin-top: 2px;
             }
             
+            #alink {
+                color: rgb(0, 0, 0);
+            }
+            
+            li a:hover {
+                font-weight: 900;
+            }
+            
             .contact-head {
                 background: #c9e6ee;
                 border-radius: 0.5rem;
@@ -89,4 +121,14 @@
             
             .con {
                 font-weight: bold;
+            }
+            
+            .image {
+                width: 60px;
+                height: 60px;
+            }
+            
+            .image:hover {
+                width: 70px;
+                height: 70px;
             }
