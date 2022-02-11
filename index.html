@@ -27,7 +27,7 @@
                 <h1>Portfolio</h1>
             </div>
             <div class="col-4 ">
-                <div class="row">
+                <div class="row nav">
                     <div class="col-3">
                         <a href="#about" class=" navigation-link">About</a>
                     </div>
@@ -52,13 +52,15 @@
                 <h1 class="text text-l2">I'm Ravi Kumar Chaudhary</h1>
                 <h3 class="text text-l3">I am Full Stack Developer</h3>
 
-                <div> <button type="button" class="btn btn-outline-success" onclick="alert('My CV')">Download CV</button></div>
+                <div><button id="btn"><a href="https://drive.google.com/file/d/11m8lAge0L8JFPBiAWOZVU_ccTBI8JwYz/view?usp=sharing"
+                     target="_blank"><b id="bold">Download Resume</b></a></button>
+                </div>
 
 
             </div>
 
             <div class="col-6">
-                <img src="./img/undraw_profile_pic_ic5t (1).svg" class="img-fluid" />
+                <img src="./undraw_profile_pic_ic5t (1).svg" class="img-fluid" />
             </div>
         </div>
     </div>
@@ -66,7 +68,7 @@
     <div id="about" class="container about pt-5">
         <div class="row">
             <div class="col-6">
-                <img src="./img/undraw_businessman_97x4.svg" class="img-fluid" />
+                <img src="./undraw_businessman_97x4.svg" class="img-fluid" />
             </div>
             <div class="col-6  ">
                 <h1 class="head-main">About Me</h1><br><br>
@@ -82,7 +84,7 @@
     <div id="skill" class="container skill pt-5">
         <div class="row">
             <div class="col-8 ">
-                <img src="./img/undraw_Coding_re_iv62.svg" class="img-fluid" />
+                <img src="./undraw_Coding_re_iv62.svg" class="img-fluid" />
             </div>
             <div class="col-4 ">
                 <div>
@@ -104,16 +106,24 @@
     <div id="project" class="container project pt-5">
         <div class="row">
             <div class="col-8">
-                <img src="./img/undraw_maker_launch_crhe.svg" class="img-fluid" />
+                <img src="./undraw_maker_launch_crhe.svg" class="img-fluid" />
             </div>
             <div class="col-4">
                 <div>
                     <h1 class="head-main">Project</h1><br><br>
                     <ul>
-                        <li class="text-1">Portfolio</li>
-                        <li class="text-1">Tic-Tac Game</li>
-                        <li class="text-1">Snake Game</li>
-                        <li class="text-1">To-Do List</li>
+                        <li class="text-1">
+                            <a id="alink" href="https://vigilant-ramanujan-c0ca90.netlify.app" target="_blank">Portfolio</a>
+                        </li>
+                        <li class="text-1">
+                            <a id="alink" href="https://upbeat-roentgen-bf5687.netlify.app" target="_blank">Tic-Toc-Toe Game</a>
+                        </li>
+                        <li class="text-1">
+                            <a id="alink" href="https://clever-bohr-6083a6.netlify.app" target="_blank">Snake Game</a>
+                        </li>
+                        <li class="text-1">
+                            <a id="alink" href="https://epic-colden-1b8257.netlify.app" target="_blank">To-do List</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -124,8 +134,11 @@
     <!-- Contact me -->
     <div id="contact" class="container contact-head pt-5">
         <h1 class="head-main contact-me">Contact me</h1>
-        <p><span><img src="./img/icons8-phone.svg"></span> </span><span class="con">+91-9958815358</span></p>
-        <p><span><img src="./img/icons8-e-mail-48 (1).png"></span><span class="con">ravichaudhary678@gmail.com</span></p>
+        <div>
+            <span><img  class="image" src="./icons8-phone.svg" onclick="alert('MY phone no. is-9958815358')"></span>
+            <span><a href="https://www.linkedin.com/in/ravich1/" target="_blank"><img class="image" src="linkedin.svg"></a></span>
+            <span><a href="mailto:ravichaudhary678@gmail.com" target="_blank"><img class="image" src="icons8-e-mail-48 (1).png"></a></span>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
